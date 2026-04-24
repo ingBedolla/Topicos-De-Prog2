@@ -19,4 +19,4 @@ if ($resultado->num_rows > 0) {
 } else {
     echo "No hay registros";
 }
-?>
+?>                          
