@@ -1,18 +1,17 @@
-body {
+* body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    background: #f4f4f4;
+    background: #b12525;
     color: #333;
 }
 
 header {
-    background: #2c3e50;
+    background: #2773c0;
     color: white;
     padding: 10px 0 20px 0;
     text-align: center;
 }
 
-/* Mejora 2: Navegación Clara */
 nav {
     background: #1a252f;
     padding: 10px;
@@ -20,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(128, 70, 70);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -31,13 +30,13 @@ main {
     padding: 15px;
 }
 
-/* Mejora 1: Optimización de elementos táctiles */
+
 .btn {
     display: block;
     background: #3498db;
     color: white;
     text-decoration: none;
-    padding: 18px; /* Más grande para facilitar el toque */
+    padding: 18px; 
     margin-top: 15px;
     text-align: center;
     border-radius: 8px;
@@ -53,5 +52,5 @@ main {
     padding: 20px;
     margin-bottom: 12px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Mejora visual sin usar imágenes pesadas */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
