@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+html, body {
+  background-color: rgb(15, 5, 53);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#Formulario {
+  background-color: rgb(95, 217, 219);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%; 
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(50, 9, 164, 0.08);
+}
+
+p#titulo {
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"]
+{
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 0;
+  background-color: #a8f9f6e2;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 0;
+  background-color: #0ebfdb;
+  color: rgba(16, 254, 28, 0.864);
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  margin-top: 10px;
+  width: 100%;
+  height: 36px;
+  outline: none;
+  border: 0;
+  background-color: #0ebfdb;
+  color: rgb(231, 14, 14);
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  }
